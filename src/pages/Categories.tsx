@@ -102,7 +102,7 @@ export const Categories: React.FC = () => {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">Categories</h1>
+          <h2 className="text-2xl font-bold text-gray-900 mb-1">Categories</h2>
           <p className="text-gray-600">Organize your books with custom categories</p>
         </div>
         <button

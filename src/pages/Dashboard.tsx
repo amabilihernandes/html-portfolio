@@ -125,10 +125,7 @@ export const Dashboard: React.FC = () => {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
-      <div>
-        <p className="text-gray-600">Welcome back! Here's your reading overview.</p>
-      </div>
+      <p className="text-gray-600">Welcome back! Here's your reading overview.</p>
 
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

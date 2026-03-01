@@ -117,7 +117,7 @@ export const Library: React.FC = () => {
     <div className="space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">My Library</h1>
+        <h2 className="text-2xl font-bold text-gray-900 mb-1">My Library</h2>
         <p className="text-gray-600">Manage your reading collection</p>
       </div>
 

@@ -6,7 +6,6 @@ import {
   BookOpen, 
   Tag, 
   Settings,
-  Menu,
   X
 } from 'lucide-react';
 
@@ -87,22 +86,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       {/* Main content */}
       <div className="flex-1 flex flex-col min-w-0 min-h-0">
-        {/* Top bar - mobile only; on desktop content aligns with sidebar top */}
-        <div className="sticky top-0 z-10 bg-white shadow-sm border-b border-gray-200 lg:hidden">
-          <div className="flex items-center justify-between h-16 px-4 sm:px-6">
-            <button
-              onClick={() => setSidebarOpen(true)}
-              className="p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100"
-            >
-              <Menu className="h-5 w-5" />
-            </button>
-            <h1 className="text-xl font-bold text-gray-900">
-              {navigation.find(item => isActive(item.href))?.name || 'BookTracker'}
-            </h1>
-          </div>
-        </div>
-
-        {/* Page content - no top padding so content aligns flush with sidebar top */}
+        {/* Page content */}
         <main className="pt-0 px-4 pb-4 sm:px-6 sm:pb-6 lg:px-8 lg:pb-8">
           {children}
         </main>

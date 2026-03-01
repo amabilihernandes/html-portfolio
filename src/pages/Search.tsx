@@ -82,7 +82,7 @@ export const Search: React.FC = () => {
     <div className="space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Search Books</h1>
+        <h2 className="text-2xl font-bold text-gray-900 mb-1">Search Books</h2>
         <p className="text-gray-600">Find and add books to your library</p>
       </div>
 
